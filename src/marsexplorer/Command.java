@@ -48,6 +48,11 @@ public class Command {
 	}
 	
 	static String generateTurnCmd(String turn) {
+
+		/**
+		Hobi 到此一游
+		 */
+
 		if (!Arrays.asList(TURNS).contains(turn.toLowerCase())) return null;
 		
 		StringBuilder sb = new StringBuilder("turn ");
